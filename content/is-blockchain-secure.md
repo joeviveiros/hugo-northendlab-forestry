@@ -1,30 +1,28 @@
 +++
 author = "Joe Viveiros"
 categories = ["blockchain"]
-date = 2022-03-02T14:00:00Z
-description = "The primary goal of blockchain is to allow digital information to be recorded & distributed, but not edited. read & learn about blockchain actually works."
+date = 2022-03-03T14:00:00Z
+description = "New blocks are always stored linearly & chronologically. This means that they are always added to the “end” of the blockchain."
 draft = true
 image = ""
 title = "Is Blockchain Secure?"
 type = "post"
 
 +++
-The primary goal of blockchain is to allow digital information to be recorded & distributed, but not edited. If this concept can be difficult to wrap understand without seeing the technology in action, read on & learn about how the earliest application of blockchain technology actually works.
+Blockchain technology accounts for the issues of security & trust in a few ways.
 
-Blockchain technology was first outlined in 1991 by Stuart Haber & W. Scott Stornetta, two researchers who wanted to create a system where document timestamps could not be tampered with. But it wasn’t until almost 20 years later, with the launch of Bitcoin in January 2009, that blockchain had its first real-world application.
+To begin with, new blocks are always stored linearly & chronologically. This means that they are always added to the “end” of the blockchain. If you ever bother to take a look at Bitcoin’s blockchain, you’ll see that each block has a position on the chain, called a “height.” As of January 2020, the block’s height had reached 615,400.
 
-The Bitcoin protocol is built on the blockchain. In a research paper introducing the digital currency, Bitcoin’s pseudonymous creator Satoshi Nakamoto referred to it as “a new electronic cash system that’s fully peer-to-peer, with no trusted third party.”
+After a block has been added to the end of the blockchain, it’s almost impossible to go back & edit the contents of the block. That’s because each block contains its own unique hash, as well as the hash of the block before it. Hash codes are created by a mathematical function that converts digital information into a string of numbers & letters. If that information is edited in any way, then the hash code changes as well.
 
-## Here’s how it works
+Here’s why that’s important to security. Let’s say someone try’s to edit a transaction so that you would have to pay for something twice. As soon as they edit the $ amount of a transaction, the block’s hash will also change. The next block in the chain will still contain the old hash, & they would need to update that block in order to cover their tracks. However, doing so would change that block’s hash. & the next, & so on.
 
-There are people, all over the world, who have bitcoin. There are also millions of people around the world who own at least a portion of a bitcoin. Now, let’s say one of those millions of people wants to spend their bitcoin on a brand new mobile phone. This is where the blockchain comes in.
+In order to change a single block, then, someone would need to change every single block after it on the blockchain. Recalculating all those hashes would take a huge & would require an improbable amount of computing power. So, once a block is added to the blockchain it becomes extremely difficult to edit & impossible to delete.
 
-When it comes to ordinary, standard, printed money: the use of printed currency is regulated & verified by a central authority, usually, a government or a bank – but Bitcoin is not controlled by anyone central authority. Instead, the transactions made in bitcoin are verified by a network of computers. This is what is meant by the Bitcoin network & blockchain being “decentralised.”
+To further address the issue of trust, blockchain networks have implemented a series of tests for computers that request to join & add blocks to the chain. The tests, called “consensus models,” users are required to “prove” themselves before they can participate in a blockchain network. One of the most common examples employed by Bitcoin is called “proof of work.”
 
-Whenever a person pays another for goods using bitcoin, the computers on the Bitcoin network verify the transaction. In order to do so, users run a program on their computers & try to solve a complex mathematical problem, called a “hash.” When a computer solves the problem by “hashing” a block, its algorithmic work will have also verified the block’s transactions.
+## Proof of Work
 
-As we described in earlier articles, the completed transaction is publicly recorded & stored as a block on the blockchain, at which point it becomes unalterable. In the case of Bitcoin, & most other blockchains, computers that successfully verify blocks are rewarded for their labour with cryptocurrency. This is commonly referred to as “mining.”
+In the proof of work system, computers must “prove” that they have done “work” by solving a complex computational math problem. If a computer solves one of these problems, they become eligible to add a block to the blockchain. But the process of adding blocks to the blockchain, what the cryptocurrency world calls “mining,” is not easy. The odds of solving one of these problems on the Bitcoin network were roughly one in 15.5 trillion in January 2020.1 To solve complex math problems at those odds, computers must run programs that cost them significant amounts of power & energy.
 
-Although transactions are publicly recorded on the blockchain, user data isn’t – or, at least not in full. To conduct transactions on the Bitcoin network, participants must run a program called a “wallet.” Each wallet consists of two unique & distinct cryptographic keys: a public key & a private key. The public key is the location where transactions are deposited to & withdrawn from. This is also the key that appears on the blockchain ledger as the user’s digital signature.
-
-Even if a user receives payment in bitcoins to their public key, they will not be able to withdraw them with their private counterpart. A user’s public key is a shortened version of their private key, created through a complicated mathematical algorithm. However, due to the complexity of this equation, it is almost impossible to reverse the process & generate a private key from a public key. For this very reason, blockchain technology is considered confidential.
+Proof of work does not make attacks by hackers impossible, but it does make them practically useless. If someone, for some reason, wanted to coordinate an attack on the blockchain, they would need to control more than 50% of all computing power on the blockchain, so that they would be able to overwhelm all other participants in the network. Given the tremendous size of the Bitcoin blockchain, a so-called 51% attack is almost certainly not worth the effort & more than likely impossible.
