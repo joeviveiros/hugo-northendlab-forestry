@@ -1,30 +1,53 @@
 +++
 author = "Joe Viveiros"
 categories = ["blockchain"]
-date = 2022-03-04T14:00:00Z
+date = 2022-03-06T14:00:00Z
 description = " You can think of a public key as a gym locker & a private key as the locker combination. Trainers & members can insert letters and notes through the opening in your locker."
-draft = true
 image = ""
 title = "Practical Application For Blockchain"
 type = "post"
 
 +++
-You can think of a public key as a gym locker and a private key as the locker combination. Trainers & members can insert letters and notes through the opening in your locker. However, the only person that can retrieve the contents of the mailbox is the one that has the unique key. It should be noted, however, that while gym locker combinations are kept in the gym manager's office, there is no central database that keeps track of a blockchain network’s private keys. If a user misplaces their private key, they will lose access to their bitcoin wallet.
+As you may or may not know – blocks on the blockchain can store data about monetary transactions. But it also turns out that blockchain an also a very reliable method of storing data about many other types of transactions, also. In fact, blockchain technology can be used to store data about things from property exchanges, stops in a supply chain, to votes for a political candidate.
 
-## The Single Public Chain
+Professional services network Deloitte recently surveyed 1,000 companies across seven countries about integrating blockchain into their business operations. Their survey found that 34% already had a blockchain system in production today, while another 41% expected to deploy a blockchain application within the next 12 months. In addition, nearly 40% of the surveyed companies reported they would invest $5 million or more in blockchain in the coming year.
 
-In the Bitcoin network, the blockchain is not only shared and maintained by a public network of users – but it is also agreed upon. When users join the network, their connected computer receives a copy of the blockchain that is updated whenever a new block of transactions is added. But what if, through human error or the efforts of a hacker, one user’s copy of the blockchain is manipulated to be different from every other copy of the blockchain?
+Here are some of the most popular applications of blockchain currently being explored.
 
-The blockchain protocol discourages the existence of multiple blockchains through a process called “consensus.” In the presence of multiple, differing copies of the blockchain, the consensus protocol will adopt the longest chain available. More users on a blockchain mean that blocks can be added to the end of the chain quicker. By that logic, the blockchain of record will always be the one that most users trust. The consensus protocol is one of blockchain technology’s greatest strengths but also allows for one of its greatest weaknesses.
+## Banking
 
-## Hacker-Proofing The Block
+No industry stands to benefit more from integrating blockchain into its business operations than the banking sector. Financial institutions only operate during standard business hours, five days a week. That means if you try to deposit a check on a Friday at 6 p.m., you likely will have to wait until the following Monday morning to see that money added your bank account. Even if you do make your deposit during business hours, the transaction can still take from one to three days to verify due to the sheer volume of transactions that banks need to settle. Now blockchain, on the other hand, never ever sleeps.
 
-It is possible for a hacker to take advantage of the majority rule in what is referred to as a 51% attack. Here’s how it would happen. Let’s say that there are five million computers on the Bitcoin network, a gross understatement for sure but an easy enough number to divide. In order to achieve a majority on the network, a hacker would need to control at least 2.5 million and of those computers. In doing so, an attacker or group of attackers could interfere with the process of recording new transactions. They could send a transaction – and then reverse it, making it appear as though they still had the coin they just spent. This vulnerability, known as double-spending, is the digital equivalent of a perfect counterfeit and would enable users to spend their bitcoins twice.
+By integrating blockchain into banks, consumers can see their transactions processed in as little as 10 minutes, essentially the time it takes to add a block to the blockchain. By using blockchain, banks also have the opportunity to exchange funds between institutions much quicker and more securely. For example, in the stock trading business, the settlement and clearing process can take up to three days (or longer, if banks are trading internationally), meaning that the money and shares are frozen for that period of time.
 
-Such an attack is extremely difficult to execute for a blockchain of Bitcoin’s scale, as it would require an attacker to gain control of millions of computers. When Bitcoin was first founded in 2009 and its users numbered in the dozens, it would have been easier for an attacker to control a majority of computational power in the network. This defining characteristic of blockchain has been flagged as one weakness for fledgling cryptocurrencies.
+## Cryptocurrency
 
-User fear of 51% attacks can actually limit monopolies from forming on the blockchain. In “Digital Gold: Bitcoin and the Inside Story of the Misfits and Millionaires Trying to Reinvent Money,” New York Times journalist Nathaniel Popper writes of how a group of users, called “Bitfury,” pooled thousands of high-powered computers together to gain a competitive edge on the blockchain. Their goal was to mine as many blocks as possible and earn bitcoin, which at the time were valued at approximately $700 each.
+Blockchain forms the bedrock for cryptocurrencies like Bitcoin. Currencies like the Australian dollar are regulated and verified by a central authority, usually a bank or the government. Under the central authority system, a user’s data and currency are technically at the whim of their bank or government. If a user’s bank collapses or they live in a country with an unstable government, the value of their currency may be at risk.
 
-## Harnessing Bitfury
+By spreading its operations across a network of computers, blockchain allows Bitcoin and other cryptocurrencies to operate without the need for central authorities. This not only reduces risk but also eliminates many of the processing and transaction fees, also. Furthermore, it also gives those in countries with unstable currencies a more stable currency with more applications and a wider network of individuals and institutions they can do business with, both domestically and internationally.
 
-By March 2014, however, a company called Bitfury was positioned to exceed 50% of the blockchain network’s total computational power. Instead of continuing to increase its hold over the network, the group elected to self-regulate itself and vowed never to go above 40%. Bitfury knew that if they chose to continue increasing their control over the network, bitcoin’s value would fall as users sold off their coins in preparation for the possibility of a 51% attack. In other words, if users lose their faith in the blockchain network, the information on that network risks becoming completely worthless. Blockchain users, then, can only increase their computational power to a point before they begin to lose money.
+## Healthcare
+
+Health care providers can also leverage blockchain to securely store their patients’ medical records. When a medical record is generated and signed, it can be written into the blockchain, which provides patients with proof and confidence that the record cannot be changed. These personal health records could be encoded and stored on the blockchain with a private key, so that they are only accessible by certain individuals, thereby ensuring greater privacy.
+
+## Property Records
+
+If you have ever spent time in your Recorder’s Office, you will know that the process of recording property rights is both burdensome and inefficient. Today, a physical deed must be delivered to a government employee at the local recording office, where is it manually entered into a central database and public index. In the case of a property dispute, claims to the property must be reconciled with the public index.
+
+This process is not just costly and time-consuming – it is also prone to human error, where each inaccuracy makes tracking property ownership less efficient. Blockchain has the potential to eliminate the need for scanning documents and tracking down physical files in a local recording office. If property ownership is stored and verified on the blockchain, owners can trust that their deed is accurate and permanent.
+
+## Smart Contracts
+
+A smart contract is a computer code that can be built into the blockchain to facilitate, verify, or negotiate a contract agreement. Smart contracts operate under a set of conditions that users agree to. When those conditions are met, the terms of the agreement are automatically carried out.
+
+Say, for example, I’m renting you my apartment using a smart contract. I agree to give you the door code to the apartment as soon as you pay me your security deposit. Both of us would send our portion of the deal to the smart contract, which would hold onto and automatically exchange my door code for your security deposit on the date of the rental. If I don’t supply the door code by the rental date, the smart contract refunds your security deposit. This eliminates the fees that typically accompany using a notary or third-party mediator.
+
+## Supply Chain
+
+Suppliers can use blockchain to record the origins of materials that they have purchased. This would allow companies to verify the authenticity of their products, along with health and ethics labels like “Organic,” “Local,” and “Fair Trade.”
+
+As reported by Forbes the food industry is moving into the use of blockchain to increasingly track the path and safety of food throughout the farm-to-user journey.
+
+## Voting
+
+Voting with blockchain carries the potential to eliminate election fraud and boost voter turnout, In the USA the concept was tested in the Nov. 2018 midterm elections in West Virginia. Each vote would be stored as a block on the blockchain, making them nearly impossible to tamper with. The blockchain protocol would also maintain transparency in the electoral process, reducing the personnel needed to conduct an election and providing officials with instant results.
