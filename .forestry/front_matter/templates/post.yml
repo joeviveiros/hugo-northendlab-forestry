@@ -26,6 +26,7 @@ fields:
   default: post
 pages:
 - content/blockchain-vs.bitcoin.md
+- content/disadvantages-of-blockchain.md
 - content/how-blockchain-works.md
 - content/is-blockchain-secure.md
 - content/practical-application-for-blockchain.md
