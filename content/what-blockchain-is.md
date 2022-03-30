@@ -1,6 +1,6 @@
 +++
 author = "Joe Viveiros"
-categories = []
+categories = ["blockchain"]
 date = 2022-02-28T14:00:00Z
 description = "The best definition for this technology - it is a distributed, decentralised, public ledger. digital information block stored in a database “chain”."
 image = ""
