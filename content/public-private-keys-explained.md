@@ -1,30 +1,29 @@
 +++
 author = "Joe Viveiros"
 categories = ["blockchain"]
-date = 2022-03-02T14:00:00Z
-description = "The primary goal of blockchain is to allow digital information to be recorded & distributed, but not edited. read & learn about blockchain actually works."
-draft = true
+date = 2022-03-04T14:00:00Z
+description = " You can think of a public key as a gym locker & a private key as the locker combination. Trainers & members can insert letters and notes through the opening in your locker."
 image = ""
 title = "Public & Private Keys Explained"
 type = "post"
 
 +++
-The primary goal of blockchain is to allow digital information to be recorded & distributed, but not edited. If this concept can be difficult to wrap understand without seeing the technology in action, read on & learn about how the earliest application of blockchain technology actually works.
+You can think of a public key as a gym locker and a private key as the locker combination. Trainers & members can insert letters and notes through the opening in your locker. However, the only person that can retrieve the contents of the mailbox is the one that has the unique key. It should be noted, however, that while gym locker combinations are kept in the gym manager's office, there is no central database that keeps track of a blockchain network’s private keys. If a user misplaces their private key, they will lose access to their bitcoin wallet.
 
-Blockchain technology was first outlined in 1991 by Stuart Haber & W. Scott Stornetta, two researchers who wanted to create a system where document timestamps could not be tampered with. But it wasn’t until almost 20 years later, with the launch of Bitcoin in January 2009, that blockchain had its first real-world application.
+## The Single Public Chain
 
-The Bitcoin protocol is built on the blockchain. In a research paper introducing the digital currency, Bitcoin’s pseudonymous creator Satoshi Nakamoto referred to it as “a new electronic cash system that’s fully peer-to-peer, with no trusted third party.”
+In the Bitcoin network, the blockchain is not only shared and maintained by a public network of users – but it is also agreed upon. When users join the network, their connected computer receives a copy of the blockchain that is updated whenever a new block of transactions is added. But what if, through human error or the efforts of a hacker, one user’s copy of the blockchain is manipulated to be different from every other copy of the blockchain?
 
-## Here’s how it works
+The blockchain protocol discourages the existence of multiple blockchains through a process called “consensus.” In the presence of multiple, differing copies of the blockchain, the consensus protocol will adopt the longest chain available. More users on a blockchain mean that blocks can be added to the end of the chain quicker. By that logic, the blockchain of record will always be the one that most users trust. The consensus protocol is one of blockchain technology’s greatest strengths but also allows for one of its greatest weaknesses.
 
-There are people, all over the world, who have bitcoin. There are also millions of people around the world who own at least a portion of a bitcoin. Now, let’s say one of those millions of people wants to spend their bitcoin on a brand new mobile phone. This is where the blockchain comes in.
+## Hacker-Proofing The Block
 
-When it comes to ordinary, standard, printed money: the use of printed currency is regulated & verified by a central authority, usually, a government or a bank – but Bitcoin is not controlled by anyone central authority. Instead, the transactions made in bitcoin are verified by a network of computers. This is what is meant by the Bitcoin network & blockchain being “decentralised.”
+It is possible for a hacker to take advantage of the majority rule in what is referred to as a 51% attack. Here’s how it would happen. Let’s say that there are five million computers on the Bitcoin network, a gross understatement for sure but an easy enough number to divide. In order to achieve a majority on the network, a hacker would need to control at least 2.5 million and of those computers. In doing so, an attacker or group of attackers could interfere with the process of recording new transactions. They could send a transaction – and then reverse it, making it appear as though they still had the coin they just spent. This vulnerability, known as double-spending, is the digital equivalent of a perfect counterfeit and would enable users to spend their bitcoins twice.
 
-Whenever a person pays another for goods using bitcoin, the computers on the Bitcoin network verify the transaction. In order to do so, users run a program on their computers & try to solve a complex mathematical problem, called a “hash.” When a computer solves the problem by “hashing” a block, its algorithmic work will have also verified the block’s transactions.
+Such an attack is extremely difficult to execute for a blockchain of Bitcoin’s scale, as it would require an attacker to gain control of millions of computers. When Bitcoin was first founded in 2009 and its users numbered in the dozens, it would have been easier for an attacker to control a majority of computational power in the network. This defining characteristic of blockchain has been flagged as one weakness for fledgling cryptocurrencies.
 
-As we described in earlier articles, the completed transaction is publicly recorded & stored as a block on the blockchain, at which point it becomes unalterable. In the case of Bitcoin, & most other blockchains, computers that successfully verify blocks are rewarded for their labour with cryptocurrency. This is commonly referred to as “mining.”
+User fear of 51% attacks can actually limit monopolies from forming on the blockchain. In “Digital Gold: Bitcoin and the Inside Story of the Misfits and Millionaires Trying to Reinvent Money,” New York Times journalist Nathaniel Popper writes of how a group of users, called “Bitfury,” pooled thousands of high-powered computers together to gain a competitive edge on the blockchain. Their goal was to mine as many blocks as possible and earn bitcoin, which at the time were valued at approximately $700 each.
 
-Although transactions are publicly recorded on the blockchain, user data isn’t – or, at least not in full. To conduct transactions on the Bitcoin network, participants must run a program called a “wallet.” Each wallet consists of two unique & distinct cryptographic keys: a public key & a private key. The public key is the location where transactions are deposited to & withdrawn from. This is also the key that appears on the blockchain ledger as the user’s digital signature.
+## Harnessing Bitfury
 
-Even if a user receives payment in bitcoins to their public key, they will not be able to withdraw them with their private counterpart. A user’s public key is a shortened version of their private key, created through a complicated mathematical algorithm. However, due to the complexity of this equation, it is almost impossible to reverse the process & generate a private key from a public key. For this very reason, blockchain technology is considered confidential.
+By March 2014, however, a company called Bitfury was positioned to exceed 50% of the blockchain network’s total computational power. Instead of continuing to increase its hold over the network, the group elected to self-regulate itself and vowed never to go above 40%. Bitfury knew that if they chose to continue increasing their control over the network, bitcoin’s value would fall as users sold off their coins in preparation for the possibility of a 51% attack. In other words, if users lose their faith in the blockchain network, the information on that network risks becoming completely worthless. Blockchain users, then, can only increase their computational power to a point before they begin to lose money.
