@@ -3,7 +3,6 @@ author = "Joe Viveiros"
 categories = []
 date = 2022-03-01T14:00:00Z
 description = "The best definition for this technology - it is a distributed, decentralised, public ledger. digital information block stored in a database “chain”."
-draft = true
 image = ""
 title = "How Blockchain Works"
 type = "post"
