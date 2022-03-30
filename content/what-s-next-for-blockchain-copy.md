@@ -1,6 +1,6 @@
 +++
 author = "Joe Viveiros"
-categories = ["blockchain"]
+categories = ["blockchain", "blockchain"]
 date = 2022-03-13T14:00:00Z
 description = "The potential of blockchain as a decentralised form of record-keeping is without limit, from allowing greater user privacy & security to lower processing overheads & less errors."
 image = ""
