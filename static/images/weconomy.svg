@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1520 308" width="1520" height="308">
+	<title>weconomy-logo</title>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 400px;fill: #000000;font-weight: 600;font-family: "BarlowCondensed-SemiBold", "Barlow Condensed" } 
+	</style>
+	<text id="weconomy" style="transform: matrix(1,0,0,1,0,219.148)" >
+		<tspan x="0" y="0" class="t0">w</tspan><tspan  y="0" class="t0">e</tspan><tspan  y="0" class="t0">conomy
+</tspan>
+	</text>
+</svg>
