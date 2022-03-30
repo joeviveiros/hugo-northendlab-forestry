@@ -3,7 +3,6 @@ author = "Joe Viveiros"
 categories = ["blockchain"]
 date = 2022-03-02T14:00:00Z
 description = "The primary goal of blockchain is to allow digital information to be recorded & distributed, but not edited. read & learn about blockchain actually works."
-draft = true
 image = ""
 title = "Blockchain vs. Bitcoin"
 type = "post"
