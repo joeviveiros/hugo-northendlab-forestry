@@ -25,4 +25,5 @@ fields:
   label: type
   default: post
 pages:
+- content/how-blockchain-works.md
 - content/what-blockchain-is.md
