@@ -8,8 +8,6 @@ title = "What Blockchain Is"
 type = "post"
 
 +++
-# What Blockchain Is
-
 The best definition for this technology is:
 
 “Essentially blockchain is a distributed, decentralised, public ledger.”
