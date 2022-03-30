@@ -2,7 +2,7 @@
 author = "Joe Viveiros"
 categories = ["Blockchain"]
 date = 2022-03-28T05:00:00Z
-description = "This is meta description"
+description = "The best definition for this technology - it is a distributed, decentralised, public ledger. digital information block stored in a database “chain”."
 image = ""
 title = "What Blockchain Is"
 type = "post"
