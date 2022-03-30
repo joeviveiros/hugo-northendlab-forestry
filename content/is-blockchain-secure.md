@@ -3,7 +3,6 @@ author = "Joe Viveiros"
 categories = ["blockchain"]
 date = 2022-03-03T14:00:00Z
 description = "New blocks are always stored linearly & chronologically. This means that they are always added to the “end” of the blockchain."
-draft = true
 image = ""
 title = "Is Blockchain Secure?"
 type = "post"
