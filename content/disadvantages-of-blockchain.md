@@ -8,7 +8,7 @@ title = "Disadvantages Of Blockchain"
 type = "post"
 
 +++
-The roadblocks to the application of blockchain technology today are not just technical. The real challenges are political and regulatory, for the most part, to say nothing of the thousands of hours of custom software design and back-end programming required to integrate blockchain to current business networks.
+The roadblocks to the application of blockchain technology today are not just technical. The real challenges are political and regulatory, for the most part, to say nothing of the thousands of hours of custom software design and back-end programming required to integrate blockchain into current business networks.
 
 Here are some of the challenges standing in the way of widespread blockchain adoption.
 
@@ -20,7 +20,7 @@ Despite the costs of mining bitcoin, users continue to drive up their electricit
 
 ## Speed Inefficiency
 
-Bitcoin is a perfect case study for the possible inefficiencies of blockchain. Bitcoin’s “proof of work” system takes about ten minutes to add a new block to the blockchain. At that rate, it’s estimated that the blockchain network can only manage seven transactions per second (TPS). Although other cryptocurrencies like Ethereum (20 TPS) and Bitcoin Cash (60 TPS) perform better than bitcoin, they are still limited by blockchain. In comparrison to an established financial brand Visa, can process 24,000 TPS.
+Bitcoin is a perfect case study for the possible inefficiencies of blockchain. Bitcoin’s “proof of work” system takes about ten minutes to add a new block to the blockchain. At that rate, it’s estimated that the blockchain network can only manage seven transactions per second (TPS). Although other cryptocurrencies like Ethereum (20 TPS) and Bitcoin Cash (60 TPS) perform better than bitcoin, they are still limited by blockchain. In comparison to an established financial brand Visa, can process 24,000 TPS.
 
 ## Illegal Activity
 
