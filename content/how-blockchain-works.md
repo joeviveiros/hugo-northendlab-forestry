@@ -1,26 +1,19 @@
 +++
 author = "Joe Viveiros"
 categories = []
-date = 2022-03-27T14:00:00Z
+date = 2022-03-01T14:00:00Z
 description = "The best definition for this technology - it is a distributed, decentralised, public ledger. digital information block stored in a database “chain”."
 draft = true
 image = ""
-title = "how-blockchain-works"
+title = "How Blockchain Works"
 type = "post"
 
 +++
-The best definition for this technology is:
+Whenever a block stores new data it’s added to the blockchain. Blockchain, as the name suggests, is made up of multiple blocks that are all strung together. Now, in order for a block to be added to the blockchain, four things need to happen:
 
-“Essentially blockchain is a distributed, decentralised, public ledger.”
+* A transaction must occur. Let’s continue with an example of an online purchase, any & all online purchases. After clicking through multiple checkouts prompts, you finally complete the purchase. In a lot of cases, a block will group together potentially thousands of transactions, so your online purchase will be packaged in the block along with other users’ transaction information, also.
+* That transaction must be verified. After making a purchase, your transaction must be verified. With other public records of information, like Wikipedia, the ATO, even your local library, there’s someone in charge of vetting new data entries. With blockchain, however, that job is processed by a network of computers. When you make your purchase, that network of computers checks that your transaction happened in the way you said it did. Specifically, they confirm the details of the purchase, including the $ amount, the time that the transaction’s occurred, and the participants.
+* That transaction must be stored in a block. After your transaction has been verified as accurate, it gets the proverbial green light. The transaction’s $ amount, your digital signature, and the vendor's digital signature are all stored in a block. There, the transaction will join hundreds, or thousands, of others just like it.
+* That block must be given a hash. What's a hash? Once all of a block’s transactions have been verified, it must be given a unique, identifying code called a hash. The block is also given the hash of the most recent block added to the blockchain. Once hashed, the block can then be added to the blockchain.
 
-## Why the name “blockchain?”
-
-At its most basic level, blockchain is literally just a chain of blocks, but not in the traditional sense of those words. When one says the words “block” & “chain” in this context, we are actually talking about digital information (the “block”) stored in a database (the “chain”).
-
-So “blocks” on the blockchain are comprised of digital pieces of information. Specifically, there are three parts to a “block”:
-
-1. Blocks store information about transactions such as the date, time, and price of your most recent purchase from Apple.
-2. Blocks store information about who is participating in a transaction. For Example: a block for purchase from Apple would record your name along with apple.com.. Instead of using your real name, your purchase is recorded without any (personal) identifying information, instead, using a unique “digital signature,” which is essentially a type of username.
-3. Blocks store information that differentiates them from other blocks. Like people's names to distinguish us from one another, each block stores a unique code called a “hash” that allows us to tell it apart from every other block. Hashes are cryptographic codes created by algorithms. Let’s say you made your purchase on Apple.com, but while it’s in transit, you decide you just can’t resist and need something else, even though the details of your new purchase would look nearly identical to your earlier purchase, one can still tell the blocks apart because of their unique hash codes.
-
-While the block in the example above is being used to store a single purchase from Apple, the reality is a little different. A single block on the Bitcoin blockchain can actually store up to 1 MB of data. Depending on the size of the transactions, that means a single block can house several thousand transactions under one roof.
+When that new block is added to the blockchain, it can become publicly available for anyone to view — including you. If you ever take a look at Bitcoin’s blockchain, you will see that you have access to transaction data, along with information about when (“Time”), where (“Height”), and by who (“Relayed By”) the block was added to the blockchain.
